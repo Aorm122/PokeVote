@@ -16,3 +16,7 @@
 10. Start the app with `php -S localhost:8000 -t public`.
 11. Open http://localhost:8000/ in your browser.
 
+Or run these scripts
+& C:\xampp\php\php.exe scripts\migrate.php
+& C:\xampp\php\php.exe scripts\seed_categories.php
+& C:\xampp\php\php.exe scripts\import_pokemon.php
