@@ -48,6 +48,7 @@ while (true) {
             getNestedString($details, ['sprites', 'front_default']),
             getNestedString($details, ['sprites', 'other', 'showdown', 'front_default']),
             getNestedString($details, ['sprites', 'other', 'home', 'front_default']),
+            sprintf('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/%d.png', $pokedexId),
             sprintf('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/%d.png', $pokedexId),
         ]);
 
